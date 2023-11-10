@@ -2,13 +2,13 @@ const nodemailer = require('nodemailer');
 // const transporter = nodemailer.createTransport({
 //     service:'gmail',
 //     auth:{
-//         user:'percidehonhonou@gmail.com',
-//         pass:'joshdiane'
+//         user:'',
+//         pass:''
 //     }
 // });
 // const mailOptions = {
-//     from:'percidehonhonou@gmail.com',
-//     to:'haimeursaad@gmail.com',
+//     from:'',
+//     to:'',
 //     subject:'Sending E-mail for checkpoint',
 //     text:'I send you this e-mail to notify you that i finish the checkpoint.',
 // }
@@ -25,13 +25,13 @@ const nodemailer = require('nodemailer');
 //         port:465,
 //         secure:true,
 //         auth:{
-//             user:'percidehonhonou@gmail.com',
-//             pass:'joshdiane',
+//             user:'********************@gmail.com',
+//             pass:'**********',
 //         },
 //     });
 //     const info = await transporter.sendMail({
-//         from:`"Percide HONHONOU" <percidehonhonou@gmail.com>`,
-//         to: 'haimeursaad@gmail.com',
+//         from:`"Percide HONHONOU" <'********************@gmail.com'`,
+//         to: '********************@gmail.com',
 //         subject: 'Sending E-mail for checkpoint',
 //         text: 'I send you this e-mail to notify you that i finish the checkpoint.',
 //         html:'<b>I send you this e-mail to notify you that i finish the checkpoint.</b>',
@@ -45,15 +45,15 @@ const nodemailer = require('nodemailer');
 const transporter = nodemailer.createTransport({
 service: 'gmail',
 auth: {
-    user: 'percidehonhonou@gmail.com',
-    pass: 'joshdiane',
+    user: '********************@gmail.com',
+    pass: '**********',
 }
 });
 
 // Email content
 const mailOptions = {
-from: 'percidehonhonou@gmail.com',
-to: 'haimeursaad@gmail.com',
+from: '********************@gmail.com',
+to: '********************@gmail.com',
 subject: 'Sending E-mail for checkpoint',
 text: 'I send you this e-mail to notify you that i finish the checkpoint.',
 };
